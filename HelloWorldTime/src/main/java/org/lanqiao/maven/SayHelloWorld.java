@@ -1,0 +1,9 @@
+package org.lanqiao.maven;
+
+public class SayHelloWorld {
+   public String  sayHWTime(String time) {
+	   HelloWorld helloWorld = new  HelloWorld();
+	 
+	   return  helloWorld.sayHello("zs"+","+time);
+   }
+}
